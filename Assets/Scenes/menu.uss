@@ -1,0 +1,8 @@
+#box {position:absolute; width:100%; top:0%;height:100%;background-color:rgba(255,0,0,0);left:0%;border-width: 0px;}
+
+#box > Button {position:absolute; width: 40%;height:20%; border-width:5px;translate: -50% -50%;border-radius: 30px;border-color:black;
+transition: background-color, 0.7s;}
+
+#play {left:12.5%;background-color:rgba(255,200,100,1);top:50%;left:50%;}
+
+#play:hover {background-color:rgba(0,255,200,0.5);}

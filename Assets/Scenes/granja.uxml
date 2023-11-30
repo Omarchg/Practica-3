@@ -1,0 +1,9 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/Scenes/granja.uss?fileID=7433441132597879392&amp;guid=b2c5ef9b281b6e84f90a972f1352ca06&amp;type=3#granja" />
+    <ui:Box name="box" style="-unity-font: url(&apos;project://database/Assets/Scenes/Corn_Farm.ttf?fileID=12800000&amp;guid=ea45f9a8daeda7b4a867e1f231690f36&amp;type=3#Corn_Farm&apos;); -unity-font-definition: initial;">
+        <ui:Button name="arbol" text="arbol" />
+        <ui:Button name="arbusto" text="arbusto" />
+        <ui:Button name="elemento" text="entorno" />
+        <ui:Button name="exit" text="exit" />
+    </ui:Box>
+</ui:UXML>

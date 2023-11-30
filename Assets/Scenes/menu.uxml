@@ -1,0 +1,6 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/Scenes/menu.uss?fileID=7433441132597879392&amp;guid=8fcf87f2d53eb4b41bf552694dd34414&amp;type=3#menu" />
+    <ui:Box name="box">
+        <ui:Button name="play" text="play" style="-unity-font: url(&apos;project://database/Assets/Scenes/Corn_Farm.ttf?fileID=12800000&amp;guid=ea45f9a8daeda7b4a867e1f231690f36&amp;type=3#Corn_Farm&apos;); -unity-font-definition: initial; font-size: 50px;" />
+    </ui:Box>
+</ui:UXML>
