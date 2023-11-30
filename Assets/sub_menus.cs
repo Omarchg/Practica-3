@@ -62,7 +62,7 @@ public class sub_menus : MonoBehaviour
             Camera cmr = GameObject.Find("Camera").GetComponent<Camera>();
             Vector3 mouse_pstn = cmr.ViewportToWorldPoint(new Vector3(Input.mousePosition.x / Screen.width, 0f, 6f));
             Vector3 objt_pstn = new Vector3(mouse_pstn.x, 0f, mouse_pstn.z);
-            Instantiate(go, objt_pstn, Quaternion.identity);
+            Instantiate(bttn_1_1,GameObject.Find("Camera").transform.position + new Vector3(0f,-5f,-15f), Quaternion.identity);
 
         }
 
