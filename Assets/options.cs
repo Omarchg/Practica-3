@@ -16,12 +16,12 @@ public class options : MonoBehaviour
     private bool isMenuMoveda = false;
     private bool isMenuMovede = false;
 
-    // Color original de los botones
+    
     private Color originalColorArbol;
     private Color originalColorArbusto;
     private Color originalColorElemento;
 
-    // Color azul
+    
     private Color blueColor = new Color(0, 0, 1);
 
    
@@ -35,7 +35,7 @@ public class options : MonoBehaviour
     {
         isMenuMoved = !isMenuMoved;
 
-        // Almacenar el color original si es la primera vez
+        
         if (originalColorArbol == default)
             originalColorArbol = arbol.resolvedStyle.backgroundColor;
 
@@ -56,7 +56,7 @@ public class options : MonoBehaviour
     {
         isMenuMoveda = !isMenuMoveda;
 
-        // Almacenar el color original si es la primera vez
+        
         if (originalColorArbusto == default)
             originalColorArbusto = arbusto.resolvedStyle.backgroundColor;
 
@@ -77,7 +77,7 @@ public class options : MonoBehaviour
     {
         isMenuMovede = !isMenuMovede;
 
-        // Almacenar el color original si es la primera vez
+        
         if (originalColorElemento == default)
             originalColorElemento = elemento.resolvedStyle.backgroundColor;
 
